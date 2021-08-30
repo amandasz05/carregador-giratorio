@@ -1,0 +1,33 @@
+.carregador {
+    width: 100px;
+    height: 100px;
+    border: 10px solid black;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+.carregador.preto {
+    border-color: #808080;
+    border-top-color: black;
+}
+
+.carregador.vermelho {
+    border-color: lightcoral;
+    border-top-color:crimson;
+}
+
+.carregador.azul {
+    border-color: lightblue;
+    border-top-color: blue;
+}
+
+.carregador.verde {
+    border-color: lightgreen;
+    border-top-color: green;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
